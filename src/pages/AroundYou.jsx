@@ -21,6 +21,8 @@ const AroundYou = () => {
     if(country ==='BA')
         setCountry('HR') // This rapidapi doesn't provide songs for Bosnia and Herzegovina
 
+    // This api isn't so great at all cause it doesn't provide songs for all countries
+
     const { data, isFetching, error } = useGetSongsByCountryQuery(country);
 
     if(isFetching && loading) return <Loader title="Loading songs around you" />
