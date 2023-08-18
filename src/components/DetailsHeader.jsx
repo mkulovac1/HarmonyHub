@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 
-{ /* details about artist */}
+{ /* details about artist or song */}
 
 const DetailsHeader = ({ artistId, artistData, songData }) => {
   
-  const artist = artistData?.artists[artistId]?.attributes // using to avoid repeatings
+  // console.log("Data about artist", artistData.data[0].attributes) // new api format for artist details
+
+  let artist = null // using to avoid repeatings
+
+  if(artistId)
+    artist = artistData.data[0].attributes
 
   return (
     <div className="relative w-full flex flex-col">
