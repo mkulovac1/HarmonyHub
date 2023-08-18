@@ -6,10 +6,12 @@ import { setActiveSong, playPause } from "../redux/features/playerSlice";
 import { useGetSongDetailsQuery, useGetSongRelatedQuery } from "../redux/services/shazamCore";
 
 const SongDetails = () => {
-    const dispatch = useDispatch();
+    const dispatch = useDispatch(); // dispatch sends action to the REDUX store
     const { songid } = useParams(); // requestParam for BE
     const { activeSong, isPlaying } = useSelector((state) => state.player);
     const { data: songData, isFetching: isFetchingSongDetails, error } = useGetSongDetailsQuery(songid);
+
+    console.log(songData)
 
     const { data, isFetching: isFetchingRelatedSongs, error: errorRelated} = useGetSongRelatedQuery(songid);
 
