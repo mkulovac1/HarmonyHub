@@ -29,7 +29,7 @@
   <img src="images/page.png" alt="app-look">
 </a>
 
-The Harmony hub application is a web application primarily used for listening music. Through this application, you can also see which songs are currently the most popular or which singers are currently the most popular. You can choose a specific genre of music. You can also search for a specific song or singer through the search engine. For each singer, it is possible to see biography and the songs he/she owns. Also, you can see the lyrics for each song. You can choose to see only songs from your country, too.
+The Harmony hub application is a web application primarily used for listening to music. Through this application, you can also see which songs are currently the most popular or which singers are currently the most popular. You can choose a specific genre of music. You can also search for a specific song or singer through the search engine. For each singer, it is possible to see biography and the songs he/she owns. Also, you can see the lyrics for each song. You can choose to see only songs from your country, too.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,9 +69,6 @@ To run this project locally you need to do following (prerequisites and installa
 * Visual studio code
 * Node.js
 * npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -80,11 +77,15 @@ To run this project locally you need to do following (prerequisites and installa
    git clone https://github.com/mkulovac1/HarmonyHub
    ```
 2. Open this project in Visual studio code
-3. Install NPM packages through terminal
+3. Type this command in terminal
+   ```sh
+   cd app
+   ```
+4. Install NPM packages through terminal
    ```sh
    npm install
    ```
-4. Run application through terminal
+5. Run application through terminal
    ```js
    npm run dev
    ```
