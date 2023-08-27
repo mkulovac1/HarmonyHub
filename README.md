@@ -1,4 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
@@ -11,7 +10,7 @@
   <h3 align="center">Harmony hub</h3>
 
   <p align="center">
-    Web application for music
+    Web application for listening to music
     <br />
     <a href="https://github.com/mkulovac1/HarmonyHub"><strong>Explore the docs »</strong></a>
     <br />
@@ -99,43 +98,55 @@ To run this project locally you need to do following (prerequisites and installa
 
 Here you can see examples of using app.
 
-Discovery (main) page:
+**Discovery (main) page:**
 
 <a href="https://harmony-hub-app.netlify.app/">
   <img src="images/main-discover.png" alt="app-look">
 </a>
 
-Music player:
+<br> <br> <br> <br>
+
+**Music player:**
 
 <a href="https://harmony-hub-app.netlify.app/">
   <img src="images/music-player.png" alt="music-player">
 </a>
 
-Top songs:
+<br> <br> <br> <br>
+
+**Top songs:**
 
 <a href="https://harmony-hub-app.netlify.app/">
   <img src="images/top-songs.png" alt="top-songs">
 </a>
 
-Top artists:
+<br> <br> <br> <br>
+
+**Top artists:**
 
 <a href="https://harmony-hub-app.netlify.app/">
   <img src="images/top-artists.png" alt="top-artists">
 </a>
 
-Song details:
+<br> <br> <br> <br>
+
+**Song details:**
 
 <a href="https://harmony-hub-app.netlify.app/">
   <img src="images/song-details.png" alt="song-details">
 </a>
 
-Artist details:
+<br> <br> <br> <br>
+
+**Artist details:**
 
 <a href="https://harmony-hub-app.netlify.app/">
   <img src="images/artist-details.png" alt="artist-details">
 </a>
 
-Searching:
+<br> <br> <br> <br>
+
+**Searching:**
 
 <a href="https://harmony-hub-app.netlify.app/">
   <img src="images/search.png" alt="search">
